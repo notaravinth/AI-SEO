@@ -10,8 +10,8 @@ export default function Features() {
         Harness the power of AI, making <br />search engine optimization intuitive <br />and effective for all skill levels.
       </h2>
       <div className="grid grid-cols-12 gap-3 px-24 pt-8">
-        <div className="col-span-4 rounded-2xl border border-white/10 p-8">
-        <div>
+        <div className="col-span-4 rounded-2xl border border-white/10 p-8 text-center items-center justify-center">
+        <div className='flex  items-center justify-center'>
             <img src={circular}/>
         </div>
         <h2 className='font-bold'>SEO Goal Setting</h2>
@@ -27,11 +27,10 @@ export default function Features() {
           <div className='absolute px-8 py-8 pt-67'>
             <h2 className='font-bold'>User-friendly dashboard</h2>
             <p className='pt-3'>Perform complex SEO audits and <br />optimizations with a single click.</p>
-            <img src="" className='px-50 -mt-30 w-265 py-5 '/>
           </div>
         </div>
-         <div className="col-span-4 rounded-2xl border border-white/10 p-8">
-        <div>
+         <div className="col-span-4 rounded-2xl border border-white/10 p-8 text-center">
+        <div className='flex justify-center text-center'>
             <img src={conical}/>
         </div>
         <h2 className='font-bold'>Smart Keyword Generator</h2>

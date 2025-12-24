@@ -51,7 +51,7 @@ const featuresList = [
 
 const Elevate = () => {
   return (
-    <section className='bg-[radial-gradient(circle_at_top_left,#1a0b2e_10%,#000000_100%)]'>
+    <section className='bg-[radial-gradient(circle_at_top_left,#1a0b2e_10%,#000000_100%)] pb-15'>
       <h1 className='text-white text-6xl mt-10 px-20 py-13'>Elevate your <br />SEO efforts</h1>
       <div className='grid grid-cols-3 text-white px-20'>
         {featuresList.map((feature,index)=>(

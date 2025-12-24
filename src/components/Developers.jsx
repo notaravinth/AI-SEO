@@ -21,15 +21,15 @@ const companies = [
 
 const Developers = () => {
   return (
-    <div className='bg-black py-20 px-4 -mt-130'>
+    <div className='bg-black py-20 px-4 -mt-130' id='Developer'>
       <div className='max-w-6xl mx-auto text-center mb-12'>
         <p className='text-gray-400 text-sm font-medium'>
           Trusted by the world's most innovative teams
         </p>
       </div>
-      <div className='max-w-5xl mx-auto grid grid-cols-4 border-white gap-5'>
+      <div className='max-w-5xl mx-auto grid grid-cols-4 border-white gap-10'>
         {companies.map((company) => (
-          <div key={company.id} className='flex items-center justify-center p-8 border border-white rounded-xl '>
+          <div key={company.id} className='flex items-center justify-center p-9 border border-white/20 rounded-xl '>
             <img src={company.src} alt={company.name}/>
           </div>
         ))}
