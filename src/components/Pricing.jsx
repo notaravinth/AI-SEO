@@ -1,5 +1,6 @@
 import React from 'react';
 import { Check } from "lucide-react";
+import grid from '../assets/grid.png'
 
 const plans = [
   {
@@ -79,7 +80,7 @@ export default function Pricing() {
                 {plan.features.map((feature, featureKey) => (
                   <li key={featureKey} className="flex items-start space-x-3">
                     <div className="flex-shrink-0 w-5 h-5 flex items-center justify-center mt-0.5">
-                      <Check className="w-4 h-4 text-purple-400" />
+                      <Check className="w-4 h-4 text-white" />
                     </div>
                     <span className="text-gray-300 text-sm sm:text-base">{feature}</span>
                   </li>
@@ -88,7 +89,7 @@ export default function Pricing() {
 
               <button className={`w-full py-3 px-6 rounded-xl font-semibold transition-all duration-300 mt-auto hover:brightness-110 active:scale-95 text-sm sm:text-base text-white 
                 ${plan.mostPopular 
-                  ? "bg-gradient-to-br from-purple-600 to-black border border-white/20 shadow-[0_0_20px_rgba(168,85,247,0.3)]" 
+                  ? "bg-gradient-to-br from-purple-600 to-black border border-white/20 shadow-[0_0_20px_rgba(168,85,247,0.3)]"   
                   : "bg-white/10 border border-white/10 hover:bg-white/20"}`}
               >
                 Join Waitlist

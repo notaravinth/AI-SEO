@@ -6,6 +6,8 @@ import About from './components/About'
 import Elevate from './components/Elevate'
 import Clients from './components/Clients'
 import Pricing from './components/Pricing'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -17,6 +19,8 @@ const App = () => {
       <Elevate/>
       <Clients/>
       <Pricing/>
+      <Contact/>
+      <Footer/>
     </section>
   )
 }

@@ -17,16 +17,16 @@ export default function Features() {
         <h2 className='font-bold'>SEO Goal Setting</h2>
         <p className='pt-3'>Helps you set and achieve SEO <br /> goals with guided assistance.</p>
         </div>
-        <div style={{ backgroundImage: `url(${graph1})` }} className='h-100 w-full col-span-8 border border-white/10 rounded rounded-3xl bg-gradient-to-br from-[#1a0b2e] to-[#0a0a0a]'>
+        <div style={{ backgroundImage: `url(${graph1})`}} className='h-100 w-full col-span-8 border border-white/10 rounded rounded-3xl z-10'>
           <div className='absolute px-8 py-8 pt-60'>
             <h2 className='font-bold'>User-friendly dashboard</h2>
             <p className='pt-3'>Perform complex SEO audits and <br />optimizations with a single click.</p>
           </div>
         </div>
-        <div style={{ backgroundImage: `url(${graph2})` }}className='w-full col-span-8 border border-white/10 rounded rounded-3xl bg-gradient-to-br from-[#1a0b2e] to-[#0a0a0a]'>
+        <div style={{ backgroundImage: `url(${graph2})`}}className='w-full col-span-8 border border-white/10 rounded rounded-3xl'>
           <div className='absolute px-8 py-8 pt-67'>
-            <h2 className='font-bold'>User-friendly dashboard</h2>
-            <p className='pt-3'>Perform complex SEO audits and <br />optimizations with a single click.</p>
+            <h2 className='font-bold'>Visual Reports</h2>
+            <p className='pt-3'>Visual insights into your <br />site’s performance.</p>
           </div>
         </div>
          <div className="col-span-4 rounded-2xl border border-white/10 p-8 text-center">
